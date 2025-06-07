@@ -19,7 +19,7 @@ Implement a fixed-outline floorplanner. The goal is to minimize the total half-p
     * All module shapes must be completely inside the chip outline.
     * Modules (both soft and hard) must not overlap.
     * The coordinates of polygon corners must be 0 or positive integers.
-    * 
+
 ---
 ### 3 Evaluation  
 For each testcase, the shortest legal HPWL among all contestants is used as a reference. The score for each testcase is calculated as:
