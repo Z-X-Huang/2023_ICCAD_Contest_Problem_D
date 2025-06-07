@@ -14,6 +14,6 @@ Implement a fixed-outline floorplanner. The goal is to minimize the total half-p
     * The aspect ratio (height/width) of the minimal bounding rectangle of a module must be within 0.5 to 2. For a rectangle, this is height divided by width.
     * The area of the module divided by the area of its minimal bounding rectangle must be between 80% and 100%.
 2. **Placement Constraints**: 
-* All module shapes must be completely inside the chip outline.
-* Modules (both soft and hard) must not overlap.
-* The coordinates of polygon corners must be 0 or positive integers.
+    * All module shapes must be completely inside the chip outline.
+    * Modules (both soft and hard) must not overlap.
+    * The coordinates of polygon corners must be 0 or positive integers.
