@@ -16,17 +16,16 @@ You are given a fixed rectangular chip outline, a mix of hard (fixed‐size) and
 **Goal**:  
 1. Select a legal polygonal shape for each soft module.  
 2. Assign integer-coordinate, non-overlapping placements for all modules wholly inside the chip.  
-## 3. Minimize total HPWL  
-\[
-  \mathrm{HPWL}
-  = \sum_{(i,j)\in\text{nets}}\bigl(\lvert x_i - x_j\rvert + \lvert y_i - y_j\rvert\bigr)
-\]
+### 3. Minimize total HPWL
 
-## 8. Evaluation  
+**HPWL** = ∑₍ᵢ,ⱼ₎∈nets (│xᵢ − xⱼ│ + │yᵢ − yⱼ│)
+
+---
+
+### 8. Evaluation
+
 - **Scoring**  
-  For each test case:
-  \[
-    \mathrm{score}_{\text{case}}
-    = \left(\frac{\mathrm{best\ HPWL}}{\mathrm{your\ HPWL}}\right)^{2}
-  \]
+  For each test case:  
+  **score_case** = (best HPWL / your HPWL)²  
+
   Total score is the sum over all cases; higher is better.
