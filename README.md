@@ -1,9 +1,8 @@
 # 2023 ICCAD Contest Problem D  
 ## 	Fixed-Outline Floorplanning with Rectilinear Soft Blocks  
 
-### 1 Introduction  
-
-- fixed-outline floorplanning must handle deformable modules (i.e., determining the shape and position of modules) to ensure all modules can be legally placed within the outline. Unlike hard modules (with fixed width and height), soft modules can alter their width and height within minimum area constraints and may even be shaped as polygons.  
+### 1 Introduction
+fixed-outline floorplanning must handle deformable modules (i.e., determining the shape and position of modules) to ensure all modules can be legally placed within the outline. Unlike hard modules (with fixed width and height), soft modules can alter their width and height within minimum area constraints and may even be shaped as polygons.  
 ---
 ### 2 Problem Statement
 Implement a fixed-outline floorplanner. The goal is to minimize the total half-perimeter wirelength (HPWL) while satisfying all module shape and placement constraints by determining the shape and placement of all soft modules.
