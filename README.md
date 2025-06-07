@@ -16,10 +16,8 @@ You are given a fixed rectangular chip outline, a mix of hard (fixed‐size) and
 **Goal**:  
 1. Select a legal polygonal shape for each soft module.  
 2. Assign integer-coordinate, non-overlapping placements for all modules wholly inside the chip.  
-3. Minimize total HPWL
+3. Minimize total HPWL  
 **HPWL** = ∑₍ᵢ,ⱼ₎∈nets (│xᵢ − xⱼ│ + │yᵢ − yⱼ│)
-
----
 
 ## 3. Evaluation
 
