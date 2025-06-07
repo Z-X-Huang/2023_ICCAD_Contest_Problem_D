@@ -11,7 +11,7 @@ Implement a fixed-outline floorplanner. The goal is to minimize the total half-p
 1. Shape Constraints:
   - The shape must be a simple rectilinear polygon.  
   - Each soft module has a minimum area requirement; its shape must enclose an area greater than this limit.  
-  - The aspect ratio (height/width) of the minimal bounding rectangle of a module must be within 0.5 to 2. For a rectangle, this is height divided by width.  
+  - The aspect ratio (height/width) of the minimal bounding rectangle of a module must be within 0.5 to 2. For a rectangle, this is height divided by width.
   - The area of the module divided by the area of its minimal bounding rectangle must be between 80% and 100%.
 2. Placement Constraints:
   - All module shapes must be completely inside the chip outline.
