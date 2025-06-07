@@ -7,7 +7,7 @@ fixed-outline floorplanning must handle deformable modules (i.e., determining th
 ### 2 Problem Statement
 Implement a fixed-outline floorplanner. The goal is to minimize the total half-perimeter wirelength (HPWL) while satisfying all module shape and placement constraints by determining the shape and placement of all soft modules.
 
-#### 2.1 Module Shape and Placement Constraints
+    #### 2.1 Module Shape and Placement Constraints
 1. **Shape Constraints**: 
     * The shape must be a simple rectilinear polygon.  
     * Each soft module has a minimum area requirement; its shape must enclose an area greater than this limit.  
