@@ -16,17 +16,17 @@ You are given a fixed rectangular chip outline, a mix of hard (fixed‐size) and
 **Goal**:  
 1. Select a legal polygonal shape for each soft module.  
 2. Assign integer-coordinate, non-overlapping placements for all modules wholly inside the chip.  
-3. Minimize total HPWL:  
-   \[
-     \text{HPWL} \;=\; \sum_{\text{nets }(i,j)} \bigl(|x_i - x_j| + |y_i - y_j|\bigr)
-   \]
+## 3. Minimize total HPWL  
+\[
+  \mathrm{HPWL}
+  = \sum_{(i,j)\in\text{nets}}\bigl(\lvert x_i - x_j\rvert + \lvert y_i - y_j\rvert\bigr)
+\]
 
 ## 8. Evaluation  
-- **Time limit**: 30 minutes per test case (including I/O).  
-- **Correctness**: All shape and non-overlap constraints must be met.  
-- **Scoring**: For each test  
+- **Scoring**  
+  For each test case:
   \[
-    \text{score}_{\text{case}}
-    = \Bigl(\tfrac{\text{best HPWL}}{\text{your HPWL}}\Bigr)^{2}
-  \]  
-  Total score is the sum over all cases; higher is better.  
+    \mathrm{score}_{\text{case}}
+    = \left(\frac{\mathrm{best\ HPWL}}{\mathrm{your\ HPWL}}\right)^{2}
+  \]
+  Total score is the sum over all cases; higher is better.
