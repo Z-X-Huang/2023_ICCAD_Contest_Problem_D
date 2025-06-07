@@ -26,6 +26,8 @@ For each testcase, the shortest legal HPWL among all contestants is used as a re
 
 $$\text{score} = \left( \frac{\text{shortest legal HPWL}}{\text{your HPWL}} \right)^2$$
 
+---
+
 | case02 | case03 |
 |:------------------------------:|:---------------------------:|
 | <img src="Project4_CE/Horizontal_Routing_Congestion.png" width="500" height="325" />     | <img src="Project4_CE/Vertical_Routing_Congestion.png" width="500" height="325" />   |
