@@ -27,10 +27,10 @@ As process technology and transistor density continue to increase, the scale and
 ---
 
 ### 3. Evaluation  
-Submissions are ranked by **total score**, computed as the sum over all test cases of:  
-\[
-\text{score}_{\text{case}} = \biggl(\frac{\text{best\_HPWL}}{\text{your\_HPWL}}\biggr)^{2}
-\]  
+Submissions are ranked by **total score**, computed as the sum over all test cases of:
+
+```txt
+score_case = (best_HPWL / your_HPWL)^2
 - **best_HPWL** is the shortest legal HPWL achieved by any team on that case.  
 - Scores are calculated to three decimal places.
 
