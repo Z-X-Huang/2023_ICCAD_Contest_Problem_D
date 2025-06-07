@@ -2,7 +2,7 @@
 ## 	Fixed-Outline Floorplanning with Rectilinear Soft Blocks  
 ---
 ### 1 Introduction  
-*
+-
 Fixed-outline floorplanning must handle deformable modules (i.e., determining the shape and position of modules) to ensure all modules can be legally placed within the outline. Unlike hard modules (with fixed width and height), soft modules can alter their width and height within minimum area constraints and may even be shaped as polygons.  
 ---
 ### 2 Problem Statement
