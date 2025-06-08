@@ -28,6 +28,6 @@ $$\text{score} = \left( \frac{\text{shortest legal HPWL}}{\text{your HPWL}} \rig
 
 ---
 
-| case02 | case03 |
-|:------------------------------:|:---------------------------:|
-| <img src="Project4_CE/Horizontal_Routing_Congestion.png" width="500" height="325" />     | <img src="Project4_CE/Vertical_Routing_Congestion.png" width="500" height="325" />   |
+| case1 | case02 | case03 |
+|:---------------------------:|:---------------------------:|:---------------------------:|
+| <img src="result/case1.jpg" width="500" height="325" />     | <img src="result/case2.jpg" width="500" height="325" />     | <img src="result/case3.jpg" width="500" height="325" />   |
