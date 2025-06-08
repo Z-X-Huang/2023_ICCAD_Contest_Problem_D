@@ -3,6 +3,7 @@
 
 #include <string>
 #include <vector>
+#include <climits>
 
 using namespace std;
 
@@ -68,7 +69,7 @@ class Tile
 		Tile* ti_bl;
 		Tile* ti_tr;
 		Tile* ti_rt;
-		Point ti_ll; //¥ª¤U¨¤®y¼Ğ
+		Point ti_ll; //Â¥ÂªÂ¤UÂ¨Â¤Â®yÂ¼Ã
 		Point ti_ur;
 		Point ti_mid;
 		vector<Tile*> name;
